@@ -12,18 +12,30 @@
 } */
 
 .hero {
+    /* Background & hero sizing */
     background-image: url("./images/space-background.jpg");
     background-size: cover;
     height: 400px;
+
+    /* Hero content position */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    /* Hero text content */
     color: #ffdeff;
     text-shadow: 0 0 15px #ffffff;
+    font-size: 210%;
 }
 
-
+#hero-text {
+    /* Hero text backing*/
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(1, 1, 1, 0.1);
+    
+}
 /* font-family: "Work Sans", sans-serif;
     font-weight: 400;
     font-style: normal; */
