@@ -1,7 +1,9 @@
 const navBar = document.getElementById("nav-bar")
 
 navBar.innerHTML = `
-    <button id="home-icon"></button>
+    <a href="index.html">
+        <button id="home-icon"></button>
+    </a>
     <div class="nav-bar-btn">
         <a href="index.html">
             <button class="nav-btn">Home</button>

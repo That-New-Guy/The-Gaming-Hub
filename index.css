@@ -22,13 +22,14 @@
 
 #home-icon {
     /* Sizing */
-    min-width: 55px;
-    max-width: 55px;
-    min-height: 55px;
-    max-height: 55px;
+    min-width: 65px;
+    max-width: 65px;
+    min-height: 65px;
+    max-height: 65px;
 
     /* Border */
     border: none;
+    margin-left: 5px;
 
     /* Background */
     background: url("./images/hub-logo.png") no-repeat;
@@ -93,8 +94,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 30px 20px;
+    line-height: 25px;
 
     /* Intro text */
     color: #ffffff;
@@ -102,6 +105,14 @@
 
     /* Intro background */
     background-color: #0f0f0f;
+}
+
+#intro-title {
+    margin: 1px 0 5px;
+}
+
+.intro-text {
+    margin: 8px 0;
 }
 
 /* font-family: "Work Sans", sans-serif;

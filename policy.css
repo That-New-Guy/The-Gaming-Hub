@@ -19,13 +19,14 @@
 
 #home-icon {
     /* Sizing */
-    min-width: 55px;
-    max-width: 55px;
-    min-height: 55px;
-    max-height: 55px;
+    min-width: 65px;
+    max-width: 65px;
+    min-height: 65px;
+    max-height: 65px;
 
     /* Border */
     border: none;
+    margin-left: 5px;
 
     /* Background */
     background: url("./images/hub-logo.png") no-repeat;
