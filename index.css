@@ -30,44 +30,36 @@
     /* Border */
     border: none;
 
+    /* Background */
     background: url("./images/hub-logo.png") no-repeat;
     background-size: 100%;
 }
 
 .nav-bar-btn {
-    border: 1px dotted blue;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: auto;
-    margin-left: 2cqmax;
-    width: 400px;
+    margin: auto 25px;
+    padding: 0 20px;
+    width: auto;
 }
 
 .nav-btn {
     /* Alignment */
-    margin: 3px;
-    padding: 13px;
+    margin: 0px 2%;
+    padding: 15px;
 
     /* Sizing */
     width: 125px;
-    /* height: 40px; */
+    font-size: 15px;
 
     /* Customization */
     border: 1px solid #0f0f0f;
-    /* background-color: #ffffff; */
-    color: #0f0f0f;
+    border-radius: 10px;
+    background-color: rgba(150, 150, 150, 0.1);
+    color: #ffffff;
+    text-shadow: 0 0 10px #898989;
 }
-
-/* #home-icon { */
-    /* Background & border*/
-    /* background-image: url("./images/hub-logo.png");
-    border: 1px solid #0f0f0f; */
-
-    /* Sizing */
-    /* width: 40px;
-    height: 40px;
-} */
 
 .hero {
     /* Background & hero sizing */
