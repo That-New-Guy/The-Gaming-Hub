@@ -7,6 +7,14 @@
     box-sizing: border-box;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    border-bottom: 2px solid #ffffff;
+}
+
 #nav-bar {
     /* Customization */
     margin: 0;
@@ -116,7 +124,17 @@
 .rules {
     /* Item alignment */
     display: flex;
-    align-items: center;
+    flex-direction: column;
+}
+
+#rule-1-4 {
+    display: flex;
+    flex-direction: row;
+}
+
+#rule-5-8 {
+    display: flex;
+    flex-direction: row;
 }
 
 .rule {
@@ -126,6 +144,11 @@
     border: 2px double #898989;
 
     /* Customization */
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
+    width: 200px;
+}
+
+.rule-link {
+    color: dodgerblue;
 }
