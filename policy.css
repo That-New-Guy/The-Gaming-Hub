@@ -28,7 +28,7 @@
     border: none;
 
     /* Background */
-    background: url("../images/hub-logo.png") no-repeat;
+    background: url("./images/hub-logo.png") no-repeat;
     background-size: 100%;
 }
 
