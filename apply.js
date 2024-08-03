@@ -10,6 +10,9 @@ navBar.innerHTML = `
             <button class="nav-btn">Policy</button>
         </a>
         <a href="apply.html">
-        <button class="nav-btn">Apply</button>
+            <button class="nav-btn">Apply</button>
+        </a>
+        <a href="join.html">
+            <button class="nav-btn">Join Us</button>
         </a>
     </div>`
