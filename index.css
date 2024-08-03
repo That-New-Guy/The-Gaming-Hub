@@ -22,15 +22,16 @@
 
 #home-icon {
     /* Sizing */
-    min-width: 50px;
-    max-width: 50px;
+    min-width: 55px;
+    max-width: 55px;
     min-height: 55px;
     max-height: 55px;
 
     /* Border */
     border: none;
 
-    background-image: url("./images/hub-logo.png") repeat 0 0;
+    background: url("./images/hub-logo.png") no-repeat;
+    background-size: 100%;
 }
 
 .nav-bar-btn {
@@ -39,7 +40,8 @@
     align-items: center;
     justify-content: space-around;
     margin: auto;
-    width: 500px;
+    margin-left: 2cqmax;
+    width: 400px;
 }
 
 .nav-btn {
@@ -89,7 +91,7 @@
     /* Hero text backing*/
     padding: 5px;
     border-radius: 10px;
-    background-color: rgba(1, 1, 1, 0.1);
+    /* background-color: rgba(1, 1, 1, 0.1); */
 
 }
 
