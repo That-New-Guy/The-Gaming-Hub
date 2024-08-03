@@ -31,7 +31,7 @@
     border: none;
 
     /* Background */
-    background: url("./images/hub-logo.png") no-repeat;
+    background: url("../images/hub-logo.png") no-repeat;
     background-size: 100%;
 }
 
@@ -63,7 +63,7 @@
 
 .hero {
     /* Background & hero sizing */
-    background-image: url("./images/space-background.jpg");
+    background-image: url("../images/space-background.jpg");
     background-size: cover;
     height: 400px;
     box-shadow: 0 0 15px 5px #0f0f0f inset;
