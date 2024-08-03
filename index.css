@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: auto 25px;
+    margin: auto 15px;
     padding: 0 20px;
     width: auto;
 }
@@ -66,6 +66,7 @@
     background-image: url("./images/space-background.jpg");
     background-size: cover;
     height: 400px;
+    box-shadow: 0 0 15px 5px #0f0f0f inset;
 
     /* Hero content position */
     display: flex;
