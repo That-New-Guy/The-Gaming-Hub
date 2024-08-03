@@ -20,9 +20,6 @@
 }
 
 .navigation {
-    border: none;
-    background-color: #ffdeff;
-
     /* Alignment */
     margin: 0;
     padding: 10px;
@@ -30,6 +27,11 @@
     /* Sizing */
     width: 125px;
     height: 40px;
+
+    /* Customization */
+    border: none;
+    background-color: #ffdeff;
+    color: #0f0f0f;
 }
 
 #home-icon {
