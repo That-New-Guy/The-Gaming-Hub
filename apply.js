@@ -9,7 +9,7 @@ navBar.innerHTML = `
             <button class="nav-btn">Home</button>
         </a>
         <a href="policy.html">
-            <button class="nav-btn">Policy</button>
+            <button class="nav-btn">Rules & Policies</button>
         </a>
         <a href="apply.html">
         <button class="nav-btn">Apply</button>
