@@ -1,0 +1,59 @@
+/* Global margin reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    /* Customization */
+    margin: 0;
+    background-color: #0f0f0f;
+    padding: 5px;
+
+    /* Item alignment */
+    display: flex;
+}
+
+#home-icon {
+    /* Sizing */
+    min-width: 55px;
+    max-width: 55px;
+    min-height: 55px;
+    max-height: 55px;
+
+    /* Border */
+    border: none;
+
+    /* Background */
+    background: url("./images/hub-logo.png") no-repeat;
+    background-size: 100%;
+}
+
+.nav-bar-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto 15px;
+    padding: 0 20px;
+    width: auto;
+}
+
+.nav-btn {
+    /* Alignment */
+    margin: 0px 2%;
+    padding: 15px;
+
+    /* Sizing */
+    width: 125px;
+    font-size: 15px;
+
+    /* Customization */
+    border: 1px solid #0f0f0f;
+    border-radius: 10px;
+    background-color: rgba(150, 150, 150, 0.1);
+    color: #ffffff;
+    text-shadow: 0 0 10px #898989;
+}
