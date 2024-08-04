@@ -127,12 +127,7 @@
     flex-direction: column;
 }
 
-#rule-1-4 {
-    display: flex;
-    flex-direction: row;
-}
-
-#rule-5-8 {
+.rule-list{
     display: flex;
     flex-direction: row;
 }
@@ -146,7 +141,8 @@
     /* Customization */
     padding: 10px;
     margin: 5px;
-    width: 200px;
+    /* width: 255px; */
+    width: 50%;
 }
 
 .rule-link {
