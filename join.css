@@ -7,14 +7,23 @@
     box-sizing: border-box;
 }
 
+#nav-holder {
+    /* Customization */
+    margin: 0;
+    background-color: #0f0f0f;
+    height: 79px;
+}
+
 #nav-bar {
     /* Customization */
     margin: 0;
     background-color: #0f0f0f;
     padding: 5px;
+    width: 100%;
 
     /* Item alignment */
     display: flex;
+    position: fixed;
 }
 
 #home-icon {
