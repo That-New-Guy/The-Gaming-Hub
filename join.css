@@ -97,3 +97,48 @@
     /* background-color: rgba(1, 1, 1, 0.1); */
 
 }
+
+/* Join */
+.join-intro {
+    /* Intro text display */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 20px;
+    line-height: 25px;
+
+    /* Intro text */
+    color: #ffffff;
+    text-shadow: 0 0 10px #222222;
+
+    /* Intro background */
+    background-color: #0f0f0f;
+}
+
+#join-title {
+    margin: 1px 0 5px;
+}
+
+.join-text {
+    margin: 8px 0 10px;
+}
+
+#join-desc {
+    padding: 10px;
+}
+
+.join-btn {
+    /* Border & background */
+    border: 1px solid #0f0f0f;
+    border-radius: 20px;
+    background-color: rgba(150, 150, 150, 0.1);
+
+    /* Sizing */
+    padding: 35px 60px;
+    font-size: 20px;
+
+    /* Customization */
+    color: #ffffff;
+}
