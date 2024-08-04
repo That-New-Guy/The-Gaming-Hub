@@ -58,7 +58,7 @@
     padding: 15px;
 
     /* Sizing */
-    width: 145px;
+    width: 150px;
     font-size: 15px;
 
     /* Customization */
@@ -67,6 +67,7 @@
     background-color: rgba(150, 150, 150, 0.1);
     color: #ffffff;
     text-shadow: 0 0 10px #898989;
+    font-family: "Work Sans", sans-serif;
 }
 
 /* Hero */
@@ -111,6 +112,7 @@
     /* Intro text */
     color: #ffffff;
     text-shadow: 0 0 10px #898989;
+    font-family: "Work Sans", sans-serif;
 
     /* Intro background */
     background-color: #0f0f0f;
