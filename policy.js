@@ -1,4 +1,5 @@
 const navBar = document.getElementById("nav-bar")
+const modPolicy = document.getElementById("mod-policy-body")
 
 navBar.innerHTML = `
     <a href="index.html">
@@ -18,4 +19,3 @@ navBar.innerHTML = `
         <button class="nav-btn">Join Us</button>
         </a>
     </div>`
-

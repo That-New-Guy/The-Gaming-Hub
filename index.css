@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+/* Navigation */
 #nav-holder {
     /* Customization */
     margin: 0;
@@ -68,6 +69,7 @@
     text-shadow: 0 0 10px #898989;
 }
 
+/* Hero */
 .hero {
     /* Background & hero sizing */
     background-image: url("./images/space-background.jpg");
@@ -95,6 +97,7 @@
 
 }
 
+/* Intro */
 .intro {
     /* Intro text display */
     display: flex;

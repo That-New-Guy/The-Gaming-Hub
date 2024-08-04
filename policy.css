@@ -6,7 +6,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bold {
+    font-weight: bold;
+}
 
+.underline {
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Navigation */
 #nav-holder {
     /* Customization */
     margin: 0;
@@ -68,6 +76,7 @@
     text-shadow: 0 0 10px #898989;
 }
 
+/* Hero */
 .hero {
     /* Background & hero sizing */
     background-image: url("./images/space-background.jpg");
@@ -96,6 +105,7 @@
 
 }
 
+/* Rules */
 .rules-intro {
     /* Intro text display */
     display: flex;
@@ -103,12 +113,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 30px 20px;
+    padding: 20px 20px;
     line-height: 25px;
 
     /* Intro text */
     color: #ffffff;
-    text-shadow: 0 0 10px #898989;
+    text-shadow: 0 0 10px #222222;
 
     /* Intro background */
     background-color: #0f0f0f;
@@ -131,6 +141,10 @@
     /* Item alignment */
     display: flex;
     flex-direction: column;
+
+    /* Border */
+    border-bottom: 4px double #898989;
+    padding-bottom: 20px;
 }
 
 .rule-list{
@@ -154,3 +168,59 @@
 .rule-link {
     color: dodgerblue;
 }
+
+/* Policy */
+.about-policy {
+    /* Intro text display */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 20px;
+    line-height: 25px;
+
+    /* Intro text */
+    color: #ffffff;
+    text-shadow: 0 0 10px #222222;
+
+    /* Intro background */
+    background-color: #0f0f0f;
+}
+
+#general-title {
+    margin: 1px 0 5px;
+}
+
+#general-desc {
+    padding: 10px 10px 20px;
+    border-bottom: 4px double #898989;
+}
+
+.mod-info {
+    /* Intro text display */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 20px;
+    line-height: 25px;
+
+    /* Intro text */
+    color: #ffffff;
+    text-shadow: 0 0 10px #222222;
+
+    /* Intro background */
+    background-color: #0f0f0f;
+}
+
+#mod-title {
+    margin: 1px 0 5px;
+}
+
+#mod-desc {
+    padding: 10px 10px 20px;
+    /* border-bottom: 4px double #898989; */
+}
+
