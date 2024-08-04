@@ -134,7 +134,7 @@
 
 #rules-desc {
     padding: 10px;
-    border-bottom: 5px dotted #898989;
+    border-bottom: 5px dashed #898989;
 }
 
 .rules {
@@ -224,3 +224,32 @@
     /* border-bottom: 4px double #898989; */
 }
 
+#mod-policy-doc {
+    /* Item alignment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Sizing */
+    height: 400px;
+
+    /* Background */
+    background-image: url("./images/space-background.jpg");
+    background-size: cover;
+    background-position-y: -100px;
+    height: 300px;
+    box-shadow: 0 0 15px 5px #0f0f0f inset;
+}
+
+#to-mod-policy {
+    /* Sizing */
+    font-size: 35px;
+    padding: 30px;
+
+    /* Customization */
+    border: 0px solid #0f0f0f;
+    border-radius: 10px;
+    background-color: rgba(150, 150, 150, 0.0);
+    color: #ffffff;
+    text-shadow: 0 0 10px #222222;
+}
